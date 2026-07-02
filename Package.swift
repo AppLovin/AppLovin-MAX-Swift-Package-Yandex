@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", from: "13.0.0"),
-        .package(url: "https://github.com/yandexmobile/yandex-ads-sdk-ios.git", exact: "8.1.0")
+        .package(url: "https://github.com/yandexmobile/yandex-ads-sdk-ios.git", exact: "8.2.0")
     ],
     targets: [
         .target(
@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppLovinMediationYandexAdapter",
-            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/yandex-adapter/AppLovinMediationYandexAdapter-8.1.0.1.zip",
-            checksum: "9ad69191f98c2d8a8435d4efb665d1ea7a21d1a8fdfc8cb8a24903c18afab32b"
+            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/yandex-adapter/AppLovinMediationYandexAdapter-8.2.0.0.zip",
+            checksum: "8467c4db70a614abb43323d3e25d4d675c1f0ef02c765f57b07d39cbbe42b4d6"
         )
     ]
 )
