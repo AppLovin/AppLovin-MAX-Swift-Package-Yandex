@@ -6,7 +6,7 @@ import PackageDescription
 
 let package = Package(
     name: "AppLovinMediationYandexAdapter",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v15)],
     products: [
         .library(
             name: "AppLovinMediationYandexAdapter",
@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppLovinMediationYandexAdapter",
-            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/yandex-adapter/AppLovinMediationYandexAdapter-8.5.0.0.zip",
-            checksum: "a3b2776fbbcb04492e21d92512c16a416798367a6f6dc730d33220e5fb8fc0f8"
+            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/yandex-adapter/AppLovinMediationYandexAdapter-8.5.0.1.zip",
+            checksum: "99059d8242ae8e128d1af8751c042fd3445065d1e6918855a48f48fea9286547"
         )
     ]
 )
